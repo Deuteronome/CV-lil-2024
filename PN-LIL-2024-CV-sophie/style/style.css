@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "custom";
+    src: url('../asset/Copyduck.ttf');
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+   /* Palette de couleur pour mon CV */
+   --color1:#A6AEBF;
+   --color2:#C5D3E8;
+   --color3:#D0E8C5;
+   --color4:#FFF8DE;
+
+
+}
+
+body {
+    background-color: var(--color3);
+}
+
+#test,#lazone {
+    display: flex;
+    flex-direction: row;
+}
+
+#jsp {
+    display: flex;
+    margin-right: 10px;
+    height: 50%;
+}
+
+
+#titre {
+    font-size: 26px;
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'custom', sans-serif;
+    top: 5vh;
+}
+
+#sidebar {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color2);
+
+}
+
+#photo {
+    width: 30vh;
+    aspect-ratio: 1;
+    border: var(--color1) solid 6px;
+    border-radius: 50%;
+    background-image: url('../asset/Hyene.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 25%;
+}
+
+#soft {
+    width: 80%;
+}
+
+li {
+    font-size: 20px;
+}
+
+.zone {
+    margin: 15px;
+    padding: 20px;
+    background-color: var(--color4);
+    color: var(--color1);
+    border: var(--color1) solid 6px;
+    border-radius: 15px;
+}
+
+#info {
+    width: 25%;
+ 
+}
+
+#info>a {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    aspect-ratio: 4/1;
+    background-color: var(--color1);
+    color: var(--color4);
+    border-radius: 5px;
+    padding: 15px 15px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+#info>a:hover {
+    background-color: var(--color4);
+    color: var(--color1);
+    border: var(--color1) 1px solid;
+}
+
+#info>a>img {
+    height: 100%;
+    display: block;
+}
+
+#info>a>p {
+    padding-left: 25px;
+}

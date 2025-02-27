@@ -1,0 +1,163 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+
+    /*palette de couleurs pour mon cv*/
+        --color1:#E5D9F2;
+        --color2:#e9e3f1;
+        --color3:#887bba;
+        --color4:#5d46c3;
+
+}
+
+
+
+
+
+
+
+
+body {
+    background-color: var(--color2);
+    
+}
+
+
+#photo {
+    width: 25% ;
+    aspect-ratio: 1;
+    border: var(--color4) 2px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+
+#info {
+    width: 40%;
+    
+}
+
+
+#info>a {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    width: 67%;
+    aspect-ratio: 4/1;
+    background-color: var(--color4);
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin: 10px 0;
+
+}
+
+
+#info>a>img {
+    height: 100%;
+    display: block;
+    
+}
+
+
+#info>a>p {
+    display: inline-block;
+    display: block;
+    padding-left: 20px;
+    color:black;
+
+}
+
+
+#info>a:hover {
+background-color: var(--color2);
+color: var(--color1);
+border:var(var(--color1));
+
+}
+
+
+#inphoto {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+
+}
+
+
+#presentation {
+height: 10vh;
+width: 155vh;
+margin-left:8vh ;
+
+}
+
+
+#formation {
+    width: 90vh;
+    margin-left: 4vh;
+    
+}
+
+
+#comp {
+    width:40vh;
+    margin-left: 4vh;
+    
+}
+
+
+#formacomp, #expint {
+display: flex;
+flex-direction: row;    
+justify-content: space-between;
+align-items: stretch;
+padding: 0 2vw;
+
+}
+
+
+#exp-pro {
+    width: 90vh;
+    margin-left: 4vh;
+
+}
+
+
+#centre-interet {
+    width:40vh; 
+
+}
+
+
+.zone {
+    
+    margin: 15px;
+    padding: 15px;
+    background-color: var(--color3);
+    color: black;
+    box-shadow: var(--color4) 2px 2px 5px 0px;
+
+}
+
+
+h4 {
+    margin-bottom:20px;
+
+}
+
+
+ul {
+    margin-bottom:40 px;
+    margin-left: 2vh;
+   
+}
